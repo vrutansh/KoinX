@@ -4,7 +4,7 @@ import CustomButton from './CustomButton';
 const Navbar = () => {
   return (
     <>
-      <nav className='min-h-screen w-full '>
+      <nav className='min-h-[2vh] w-full bg-white'>
         <div className='flex justify-between h-full m-1 p-3 border-b-2 border-zinc-100'>
           {/* Logo */}
           <a href='#' className='text-xl font-bold text-zinc-900 ml-6'>
