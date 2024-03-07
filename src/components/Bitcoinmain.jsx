@@ -4,12 +4,12 @@ import Menu from './Menu'
 function Bitcoinmain() {
   return (
     <>
-      <div className='w-full h-screen flex px-10 gap-5'>
+      <div className='w-full min-h-[900vh] flex px-10 gap-5 bg-zinc-100'>
          <div className='cardcontainer mt-5 h-[75vh] w-4/5'>
             <div className=' relative card rounded-xl w-full h-full bg-pink-300 flex items-center justify-center'>
    
              </div>
-          <div className='menu my-12'>
+          <div className='menu my-12 '>
           <Menu/>
           </div>
         </div>
