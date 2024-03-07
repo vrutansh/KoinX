@@ -2,7 +2,11 @@ import React from 'react'
 
 function Overview() {
   return (
-    <div className='w-[full] h-[77vh] rounded-xl bg-orange-700'>Overview</div>
+    <div className='h-screen w-full'>
+       <div className='bg-green-800 w-full h-full rounded-xl'>
+           Performance
+       </div>
+    </div>
   )
 }
 
