@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import Overview from './Overview';
-import Fundamentals from './Fundamentals';
+import Sentiment from './Sentiment';
+import About from './About';
+import Tokenomics from './Tokenomics';
+import Team from './Team';
 
 function Menu() {
     const [selected, setSelected] = useState(null);
@@ -19,8 +22,17 @@ function Menu() {
 
     
 </div>
-  <Overview/>
-  <Fundamentals/>
+  {[<Overview/>,
+  <Sentiment/>,
+  <About/>,
+  <Tokenomics/>,
+  <Team/>].map((elem,index) => (
+    <div className='h-screen w-full'>
+    <div className='bg-purple-200 w-full h-full rounded-xl mt-5'>
+       {elem}
+    </div>
+ </div>
+  ))}
   </>
   )
 }
